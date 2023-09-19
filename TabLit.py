@@ -20,8 +20,9 @@ if not (
 
 delete_empty_subfolders("assets")
 
-session_id = get_session_id()
-assets_path = os.path.join("assets", session_id)
+if "session_id" not in st.session_state:
+    st.session_state["session_id"] = get_session_id()
+assets_path = os.path.join("assets", st.session_state.session_id)
 os.makedirs(assets_path, exist_ok=True)
 
 
@@ -83,7 +84,9 @@ with st.sidebar:
             # Create the zip file when the user clicks a button
             if st.button("Create Zip File"):
                 if selected_files:
-                    create_zip_file(assets_path, selected_files, session_id)
+                    create_zip_file(
+                        assets_path, selected_files, st.session_state.session_id
+                    )
                     st.success("Zip file created and ready for download.")
                 else:
                     st.warning(

@@ -47,7 +47,6 @@ def create_zip_file(assets_path, selected_files, session_id):
     )
 
 
-@st.cache_data(ttl=TTL)
 def get_session_id():
     # Generate a UUID
     my_uuid = uuid.uuid4()
