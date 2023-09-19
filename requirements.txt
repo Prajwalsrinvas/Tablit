@@ -5,3 +5,4 @@ Requests==2.31.0
 streamlit==1.26.0
 streamlit_carousel==0.0.4
 streamlit_feedback==0.1.2
+clarifai==9.8.1
