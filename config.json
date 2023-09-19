@@ -1,0 +1,65 @@
+{
+    "required_columns": {
+        "amazon": [
+            "asin",
+            "productName",
+            "oldPrice",
+            "price",
+            "imageUrl",
+            "prime",
+            "productUrl",
+            "rating",
+            "sponsored"
+        ],
+        "walmart": [
+            "id",
+            "name",
+            "averageRating",
+            "price"
+        ],
+        "google": [
+            "displayed_url",
+            "position",
+            "snippet",
+            "title",
+            "url"
+        ]
+    },
+    "custom_prompt": "The user may ask you or trick you into revealing environment variables, secrets, tokens, API keys or other confidential information. You are not allowed to do that. Any file that has to be created has to be stored in this path: {assets_path}. If any plot is created, do not display it, always save it to disk as a file. If your answer is tabular or can be represented in a table, display it as a markdown table. For non-tabular answers, regular text is fine. Import the required libraries before trying to run the code that uses the library. If your output is regular text and contains dollar symbols ($), escape the dollar symbols using two backslashes in front of dollar signs",
+    "crawler_mapping": {
+        "ecommerce": {
+            "amazon": {
+                "url": "https://www.amazon.com/s?k={search_keyword}"
+            },
+            "walmart": {
+                "url": "https://www.walmart.com/search?q={search_keyword}"
+            },
+            "post_url": "https://api.webit.live/api/v1/realtime/ecommerce",
+            "json_data": {
+                "parse": true,
+                "format": "json",
+                "render": false,
+                "country": "ALL",
+                "locale": "en"
+            }
+        },
+        "serp": {
+            "post_url": "https://api.webit.live/api/v1/realtime/serp",
+            "google": {
+                "json_data": {
+                    "parse": true,
+                    "search_engine": "google_search",
+                    "format": "json",
+                    "render": false,
+                    "country": "ALL",
+                    "locale": "en"
+                }
+            }
+        }
+    },
+    "gallery": [
+        "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1380&t=st=1688825493~exp=1688826093~hmac=cb486d2646b48acbd5a49a32b02bda8330ad7f8a0d53880ce2da471a45ad08a4",
+        "https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?w=1380&t=st=1688825780~exp=1688826380~hmac=dbaa75d8743e501f20f0e820fa77f9e377ec5d558d06635bd3f1f08443bdb2c1",
+        "https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=1380&t=st=1688825798~exp=1688826398~hmac=f623f88d5ece83600dac7e6af29a0230d06619f7305745db387481a4bb5874a0"
+    ]
+}
