@@ -181,7 +181,7 @@ else:
 
     if st.session_state.get("last_run"):
         run_url = get_run_url(st.session_state.last_run)
-        st.sidebar.markdown(f"[Latest Trace: 🛠️]({run_url})")
+        st.sidebar.markdown(f"[Latest LangSmith Trace: 🛠️]({run_url})")
         feedback = streamlit_feedback(
             feedback_type="faces",
             optional_text_label="[Optional] Please provide an explanation",
