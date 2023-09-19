@@ -108,7 +108,9 @@ if explore_data:
         else:
             st.dataframe(input_data)
 else:
-    if "messages" not in st.session_state:
+    if "messages" not in st.session_state or st.sidebar.button(
+        "Clear conversation history"
+    ):
         st.session_state["messages"] = [
             {
                 "role": "assistant",
