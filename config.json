@@ -60,43 +60,43 @@
     "gallery": [
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/1.png",
-            "desc": ""
+            "desc": "Upload CSV file and explore data"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/2.png",
-            "desc": ""
+            "desc": "Q&A based on uploaded data"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/3.png",
-            "desc": ""
+            "desc": "Crawl web and explore data"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/4.png",
-            "desc": ""
+            "desc": "Q&A based on crawled data"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/5.png",
-            "desc": ""
+            "desc": "Create plot based on crawled data"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/6.png",
-            "desc": ""
+            "desc": "Download assets as zipfile and provide feedback"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/7.png",
-            "desc": ""
+            "desc": "Downloaded assets, generated plot, chat history JSON"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/8.png",
-            "desc": ""
+            "desc": "LangSmith traces"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/9.png",
-            "desc": ""
+            "desc": "LLM prompt on LangSmith"
         },
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/10.png",
-            "desc": ""
+            "desc": "User feedback and score"
         }
     ]
 }
