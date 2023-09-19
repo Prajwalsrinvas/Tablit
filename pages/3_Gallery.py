@@ -14,9 +14,9 @@ st.subheader("🖼️ Gallery")
 config = read_config()
 gallery = config["gallery"]
 images = []
-for index, image_link in enumerate(gallery, start=1):
-    image = {"title": "", "text": "", "interval": None, "img": image_link}
-    images.append(image)
+for index, image in enumerate(gallery, start=1):
+    temp = {"title": "", "text": image["desc"], "interval": None, "img": image["url"]}
+    images.append(temp)
 
 
 carousel(items=images, width=1)
