@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 st.session_state["gallery_viewed"] = True
-st.subheader("🖼️ Gallery")
+st.header("🖼️ Gallery")
 config = read_config()
 gallery = config["gallery"]
 images = []
