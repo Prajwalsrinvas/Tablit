@@ -59,16 +59,44 @@
     },
     "gallery": [
         {
-            "url": "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=1380&t=st=1688825493~exp=1688826093~hmac=cb486d2646b48acbd5a49a32b02bda8330ad7f8a0d53880ce2da471a45ad08a4",
-            "desc": "test1"
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/1.png",
+            "desc": ""
         },
         {
-            "url": "https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?w=1380&t=st=1688825780~exp=1688826380~hmac=dbaa75d8743e501f20f0e820fa77f9e377ec5d558d06635bd3f1f08443bdb2c1",
-            "desc": "test2"
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/2.png",
+            "desc": ""
         },
         {
-            "url": "https://img.freepik.com/free-photo/aerial-beautiful-shot-seashore-with-hills-background-sunset_181624-24143.jpg?w=1380&t=st=1688825798~exp=1688826398~hmac=f623f88d5ece83600dac7e6af29a0230d06619f7305745db387481a4bb5874a0",
-            "desc": "test3"
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/3.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/4.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/5.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/6.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/7.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/8.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/9.png",
+            "desc": ""
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/10.png",
+            "desc": ""
         }
     ]
 }
