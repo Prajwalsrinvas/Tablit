@@ -101,6 +101,10 @@
         {
             "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/11.png",
             "desc": "Preventing LLM attacks using custom prompts"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/Prajwalsrinvas/Tablit/main/screenshots/12.png",
+            "desc": "Initial wrong output which is rectified later"
         }
     ]
 }
