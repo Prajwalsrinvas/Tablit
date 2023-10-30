@@ -23,8 +23,14 @@ TabLit
 - [TabLit](https://tablit.streamlit.app/) is a Streamlit application that provides a user interface for chatting with Tabular Data using a LLM. 
 - Its core functionalities include setting up the chat interface, integrating with the language model for generating responses, pre-processing and formatting data for ingestion by the model, allowing users to explore data, displaying intermediate language model steps, and saving chat history. 
 - The project aims to streamline user interaction with the language model, enabling them to chat, explore data, and provide feedback to improve model performance.
+- This project was built as part of the [Streamlit LLM Hackathon](https://streamlit.io/community/llm-hackathon-2023).
 ---
 
+<details>
+  <summary>Swag🧦</summary>
+  
+  <img src="swag.png" alt="Socks and stickers" width="45%">
+</details>
 
 ## 🧩 Modules
 
